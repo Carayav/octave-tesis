@@ -1,0 +1,48 @@
+file: AZALEE PARAMETRIC FILE ;
+
+date: Wednesday, May 16, 2018 12:21:09 ;
+Experiment code: OCO-US ;
+Hospital: LARIB ;
+Department: RHUMATO ;
+Operator: DONATIEN ;
+patient code: P014 ;
+patient birthdate: Tuesday, January 01, 1980 ;
+patient gender : M ;
+patient laterality : R ;
+Observations: <OBSERVATIONS> ;
+Measured bone : RADIUS ;
+Side : L ;
+
+Parameters description ; 
+Short name; Description; Unit; Format; 
+MEAS; Angular position index (measurement index; NA; %.0f;
+T/D; Showed transmitter or deflexion ; NA; %02d;
+VFAS1; First Arrival Time signal speed for direct singular spectrum; mm/µs; %.2f;
+VFAS2; First Arrival Time signal speed for reverse singular spectrum; mm/µs; %.2f;
+VFAS12; First Arrival Time signal speed harmonic mean; mm/µs; %.2f;
+
+MEAS ;T/D ;VFAS1 ;VFAS2 ;VFAS12 ;
+22; 00; 2.77; 4.25; 3.35; 
+23; 00; 0.01; 0.01; 0.00; 
+24; 00; 4.09; 3.77; 3.92; 
+25; 00; 4.24; 3.67; 3.93; 
+26; 00; 4.22; 3.71; 3.95; 
+27; 00; 4.12; 3.80; 3.95; 
+28; 00; 4.13; 3.77; 3.94; 
+29; 00; 4.08; 3.76; 3.92; 
+30; 00; 3.94; 3.77; 3.85; 
+31; 00; 4.12; 3.79; 3.95; 
+32; 00; 4.07; 3.74; 3.90; 
+33; 00; 4.03; 3.78; 3.90; 
+34; 00; 4.04; 3.76; 3.89; 
+35; 00; 4.02; 3.78; 3.89; 
+36; 00; 4.05; 3.77; 3.91; 
+37; 00; 4.02; 3.78; 3.89; 
+38; 00; 3.99; 3.96; 3.97; 
+39; 00; 4.02; 3.97; 4.00; 
+40; 00; 3.98; 3.93; 3.96; 
+41; 00; 3.98; 3.84; 3.91; 
+42; 00; 3.99; 3.84; 3.91; 
+43; 00; 3.99; 3.84; 3.91; 
+44; 00; 4.00; 3.95; 3.97; 
+45; 00; 3.86; 3.79; 3.82; 
