@@ -2,7 +2,7 @@
 
 function [Imrefs] = valores_ref()
 
-load REF2D_exvivo_Mathilde_Radius_01mm
+
 
 Nf = length(f)
 Nk = length(k)
