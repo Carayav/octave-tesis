@@ -1,7 +1,8 @@
 
 
-function [Imrefs] = valores_ref()
 
+function [Imrefs] = valores_ref()
+load REF2D_exvivo_Mathilde_Radius_01mm
 
 
 Nf = length(f)
@@ -24,4 +25,7 @@ for npd = 1:20
   end
   npd
 end
+
+
+
 end

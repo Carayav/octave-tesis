@@ -4,6 +4,7 @@ chemin1= '2018_05_16_LARIB014_by_DONATIEN_RADIUS_LEFT/11_14_32';
 indice= 1;unite=0;porte=1;
 cd(start_path)
 
+
 [SIG2,fe,f0,data,temps, RSS, RSB] = ouverture_aza_v5(start_path,chemin1,indice,unite,porte);
 ##########################################################################################
 ## SIG2 = Matriz de tamaño Nt x n_receptor x n_emisores x índice x dirección
@@ -29,6 +30,7 @@ p = 0.8;                      ##  p: Espacio entre sensores [mm]
 x = [0:NR-1]*p;               ##  x: Arreglo de posiciones  [mm]
 s = squeeze(SIG2(:,:,:,1,1)); ##  s: Señal s en tiempo s(t)
 
+load REF2D_exvivo_Mathilde_Radius_01mm
 
 
 ## s → S 
