@@ -40,6 +40,9 @@ U = zeros(Nf,NK,NE);
 Nf = length(f);
 for nf=1:Nf
   [u, s, v] = svd(squeeze(S(nf,:,:)), NE);
+  if (nf == 1)
+    size(u)
+  endif
   U(nf,:,:) = fft(u,NK);  
 end
 suma = 1/NR*sum( abs( U(1:Nf,:,:)).^2 ,3 );
@@ -60,6 +63,7 @@ figure;
 subplot(1,2,1)
 [m a ] = max(max(valor));
 [m b ] = max(max(valor'))
+colormap('grey')
 contour(etest(1:30),portest(1:20),valor,[m-0.04:0.01:m-0.01]);colorbar
 hold on,plot(etest(a),portest(b),'xr','markersize',10)
 title(sprintf('Hola'))
